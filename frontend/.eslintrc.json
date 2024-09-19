@@ -1,0 +1,28 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "extends": ["next", "next/core-web-vitals"],
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-empty-function": "error",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2],
+    "no-console": "warn",
+    "eqeqeq": ["error", "always"],
+    "curly": "error",
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "array-bracket-spacing": ["error", "never"],
+    "block-spacing": ["error", "always"],
+    "comma-dangle": ["error", "never"]
+  }
+}

@@ -1,0 +1,13 @@
+.idea
+docker-compose.yml
+
+./frontend/node_modules/
+./frontend/.next/
+./frontend/package-lock.json
+./frontend/Dockerfile
+./frontend/next-env.d.ts
+
+./backend/node_modules
+./backend/package-lock.json
+./backend/.env
+./backend/Dockerfile
